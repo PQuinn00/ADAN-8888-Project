@@ -1,1 +1,23 @@
+Overall Github Structure:
+Your folder setup is very clear. Within the data folder it may be helpful to include more files exhibiting your dataset’s progression to give potential users of your model an understanding of the data preprocessing and feature engineering that was done to shape the dataset from its original state to its final form that your modeling is based from.
+Including more artifacts showing code outputs throughout the project (including those not included in your final code) could support understanding the nature of your data and its associated features.
+I like that you have each of your weekly reports included in the reports folder. Having alignment between each week’s reports, dataset, code, and outputs would make for a more complete repository structure, where an onlooker interested in exploring the modeling process from end to end could see the entire progression of the project and all of the fine details that come with it.
+
+Code/Notebook:
+Some additional installation steps could be added to improve the usability for a given user using a different machine. I had to add installations for XGBoost and Shap.
+You should include agnostic reading of your original data file, aggregated_fantasy_data.csv, so that anyone trying to use your code can read the file directly from your repository rather than downloading it to their own machines.
+The inclusion of more EDA steps would be beneficial. Viewing the code itself, it is difficult to infer why certain modeling techniques were chosen without better understanding the nature of your data.
+I would have also liked to see more of your model selection process included in the final code. This would contribute to a prospective stakeholder’s trust that the winning model is a viable option especially as compared with other constructed models.
+
+Code Output:
+The model graphics look great. Some more descriptive commentary within the code about the implications of the visualized outputs would contribute to a user making an informed decision on whether they would want to put your code into practice.
+Visualizing summary statistics of the data features themselves outside of the scope of your models would produce more trust in your model selection, as it would be more clearly evident why you selected your respective models and why those models may work with the effectivity that they do.
+It appears the formatting of your plots turned out a bit off. I presume other plots were intended to go in the empty boxes or the code for these boxes could simply be removed.
+It could be helpful to include more visualizations or commentary about your final results. Without reading too much into it, it is difficult for a reader to interpret these results, and moreover whether or not the model was successful in the desired prediction task.
+
+Report:
+You have produced a very thorough report. While your report includes plentiful information about your end-to-end modeling process following from the model development life cycle, it could benefit from some more condensed sections or snapshots of your approaches for more efficient readability.
+The use of graphics in your report could give the information in the report more credibility, so readers could see for themselves the information you are writing rather than simply trusting that your documentation is true.
+Including a more explicitly defined model performance could have better contributed to a neutral viewer’s perspective on how your models performed. It was difficult to locate places where you explicitly mention that your model performed well. Those explanations surely are in your report, though having a concise section that basically states “the model performed _____, which was determined by analyzing  _____ statistics, which imply that _____,” could have more effectively gotten that point across.
+
 
